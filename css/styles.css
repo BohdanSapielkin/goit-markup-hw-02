@@ -154,3 +154,43 @@ ul {
 .footer-contact .link:focus {
     color: var(--hover-text);
 }
+
+/* portfolio.html */
+
+/* filter */
+.buttons{
+    color: var(--button-text);
+    background: var(--button-bcg);
+    cursor: pointer;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.buttons.active:hover,
+.buttons.active:focus{
+    color: var(--button-text-active);
+    background: var(--button-bcg-active);
+    cursor: pointer;
+}
+
+/* portfolio */
+.portfolio-title{
+    color: var(--secondary-text);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text{
+    color: var(--main-text);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
