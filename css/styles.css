@@ -1,0 +1,156 @@
+:root{
+    --main-text: #757575;
+    --secondary-text: #212121;
+    --hover-text: #2196f3;
+    --logo-text: #2196f3;
+    --button-text: #212121;
+    --button-text-active: #ffffff;
+    --button-bcg: #f5f4fa;
+    --button-bcg-active: #2196f3;
+    --footer-contacts: rgba(255, 255, 255, 0.6);
+}
+/* index.html */
+body{
+    background-color: #f5f5f5;
+    color: #757575;
+    font-family: Roboto, sans-serif;
+}
+ul {
+    list-style: none;}
+
+/* Навігація */
+.logo {
+    color: var(--logo-text);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+
+.logo-secondary{
+    color: #000000;
+}
+.site-nav .link{
+    color: var(--secondary-text);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+   color: var(--hover-text);
+}
+
+.header-contact .link{
+    color: var(--main-text);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-contact .link:hover,
+.header-contact .link:focus {
+    color: var(--hover-text);
+}
+
+/* Герой */
+.main-index-title{
+    color: #ffffff;
+    font-family: 'Roboto';        
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;        
+    text-align: center;
+    letter-spacing: 0.06em;      
+}
+
+.index-button{
+    color: #ffffff;
+    background-color: #2196f3;
+    cursor: pointer;
+}
+
+/* Переваги */
+.feature-index-title{
+    color: var(--secondary-text);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+.main-index-text{
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+/* Наша робота */
+.secondary-index-title{
+    color: var(--secondary-text);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+.teammate-name{
+    color: var(--secondary-text);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em
+}
+
+.teammate-position{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+/* Футер */
+.footer{
+    background-color: #2f303a;
+}
+.logo-secondary-white{
+    color: #ffffff;
+}
+
+.address{
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.address:hover,
+.address:focus{
+    color: var(--hover-text);
+}
+
+.footer-contact .link{
+    color: var(--footer-contacts);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.footer-contact .link:hover,
+.footer-contact .link:focus {
+    color: var(--hover-text);
+}
